@@ -1,3 +1,6 @@
 plugins {
     id 'airbyte-docker-legacy'
 }
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
